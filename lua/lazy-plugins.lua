@@ -46,6 +46,12 @@ require('lazy').setup(
 
         require('custom.plugins.nvim-tree'),
 
+        require('custom.plugins.monokai-pro'),
+
+        require('custom.plugins.gruvbox'),
+
+        require('custom.plugins.onedark'),
+
         -- require('kickstart.plugins.treesitter'),
 
         -- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the
