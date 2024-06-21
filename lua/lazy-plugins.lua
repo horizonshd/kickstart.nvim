@@ -44,6 +44,8 @@ require('lazy').setup(
 
         require('kickstart.plugins.mini'),
 
+        { 'nvim-tree/nvim-tree.lua', opts = {} },
+
         -- require('kickstart.plugins.treesitter'),
 
         -- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the
