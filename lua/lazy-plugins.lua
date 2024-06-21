@@ -44,7 +44,7 @@ require('lazy').setup(
 
         require('kickstart.plugins.mini'),
 
-        { 'nvim-tree/nvim-tree.lua', opts = {} },
+        require('custom.plugins.nvim-tree'),
 
         -- require('kickstart.plugins.treesitter'),
 
