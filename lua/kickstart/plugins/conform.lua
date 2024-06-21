@@ -1,5 +1,4 @@
-return
-{ -- Autoformat
+return { -- Autoformat
   'stevearc/conform.nvim',
   lazy = false,
   keys = {
