@@ -103,6 +103,8 @@ require 'custom.options'
 
 require 'keymaps'
 
+require 'custom.keymaps'
+
 require 'lazy-bootstrap'
 
 require 'lazy-plugins'
