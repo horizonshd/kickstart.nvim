@@ -6,7 +6,7 @@ return {
   },
   init = function()
     -- Load the colorscheme here.
-    vim.cmd.colorscheme 'monokai-pro-spectrum'
+    vim.cmd.colorscheme 'monokai-pro-classic'
 
     -- You can configure highlights by doing something like:
     vim.cmd.hi 'Comment gui=none'
