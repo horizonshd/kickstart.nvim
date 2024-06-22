@@ -19,6 +19,3 @@ map('n', '<Tab>', ':bn<CR>', 'Go to next buffer')
 map('n', '<S-Tab>', ':bp<CR>', 'Go to previous buffer')
 
 map('n', ';', ':', 'Enter command line mode')
-
-map({ 'n', 'v' }, '<S-j>', '10j', 'Move 10 lines down')
-map({ 'n', 'v' }, '<S-k>', '10k', 'Move 10 lines up')
