@@ -3,6 +3,7 @@ return {
   priority = 1000,
   opts = {
     background_clear = { 'float_win' },
+    transparent_background = true,
   },
   init = function()
     -- Load the colorscheme here.
