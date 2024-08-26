@@ -58,7 +58,7 @@ return { -- Useful plugin to show you pending keybinds.
 
     -- Document existing key chains
     require('which-key').add {
-      { '<leader>c', group = '[C]ode' },
+      { '<leader>c', group = '[C]ode', mode = { 'n', 'x' } },
       { '<leader>d', group = '[D]ocument' },
       { '<leader>h', group = 'Git [H]unk', mode = { 'n', 'v' } },
       { '<leader>r', group = '[R]ename' },
